@@ -25,7 +25,7 @@ func main(){
 	// everytime we go through the list of cards we are putting away the last cards.
 	// This is print a list like so 0 Ace of Diamonds, 1 Five of Diamonds
 	for i, card := range cards{
-		fmt.Println(cards)
+		fmt.Println(i,card)
 	}
 }
 
