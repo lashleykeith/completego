@@ -33,7 +33,7 @@ func (pointerToPerson *person) updateName(newFirstName string){
 	(*pointerToPerson).firstName = newFirstName
 	// *person This is type description it means we're working with a pointer to a person.
 	// *pointerToPerson This is an operator it means we want to manipulate the value the pointer is referencing.
-	// Turn addres into value with *address
+	// Turn address into value with *address
 	// Turn value into address with &value
 }
 func (p person) print() {
